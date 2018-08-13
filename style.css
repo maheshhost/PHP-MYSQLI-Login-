@@ -1,0 +1,60 @@
+body {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.form {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+
+input[type=submit] {
+	margin-top: 5px;
+	border: 1px solid red;
+	height: 40px;
+	width: 150px;
+	color: black;
+	background-color: #e84118;
+}
+
+input[type=submit]:hover {
+	background-color: red;
+	
+}
+
+input[type=text] {
+	height: 30px;
+	width: 250px;
+	margin-bottom: 7px;
+	font-size: 18px;
+}
+
+input[type=password] {
+	height: 30px;
+	width: 250px;
+	margin-bottom: 7px;
+	font-size: 18px;
+}
+
+input[type=email] {
+	height: 30px;
+	width: 250px;
+	margin-bottom: 7px;
+	font-size: 18px;
+}
+
+input[type=email]:hover {
+	color: red ;
+}
+
+input[type=password]:hover {
+	color: red;
+}
+
+input[type=text]:hover {
+	color: red;
+}
